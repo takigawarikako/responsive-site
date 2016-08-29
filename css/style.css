@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/*Base
+---------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #7b5544;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.2rem; }
+
+/*Align
+--------------------------------------------------------------*/
+.text-align {
+  text-align: center; }
+
+/*Header
+--------------------------------------------------------------*/
+header {
+  background-image: url("../images/img_top_breakfast.jpg");
+  height: 250px;
+  width: 100%;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center; }
+
+@media (min-width: 769px) {
+  header {
+    height: 500px;
+    background-position: 0 10px 700px 0; } }
+/*Breakfast
+---------------------------------------------------------------*/
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  padding: 20px 0 10px 0;
+  font-weight: 700; }
+
+@media (min-width: 769px) {
+  h1 {
+    font-size: 6rem; } }
+main {
+  background-color: #f8f4e6;
+  padding-bottom: 40px; }
+
+#breakfast {
+  background-color: #f8f4e6; }
+
+.title-box {
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 2rem;
+  background-color: #a3d6cc;
+  border-style: solid;
+  border-color: #006a6c;
+  border-width: 0 0 1px 0; }
+
+@media (min-width: 769px) {
+  .title-box {
+    font-size: 3rem; } }
+.text-box {
+  margin: 0 0 20px 0;
+  padding: 10px; }
+
+@media (min-width: 769px) {
+  .text-box {
+    font-size: 2.4rem; } }
+.container {
+  padding-bottom: 20px; }
+
+@media (min-width: 769px) {
+  .container {
+    display: flex; } }
+.contents_box {
+  background-color: #fffff9;
+  margin: 0 50px 30px 50px;
+  border-style: solid;
+  border-color: #006a6c;
+  border-width: 1px; }
+
+@media (min-width: 769px) {
+  .contents_box {
+    width: 33.33333%;
+    align-items: strech; } }
+#contact {
+  background-color: #a3d6cc;
+  padding-bottom: 30px;
+  border-style: solid;
+  border-color: #006a6c;
+  border-width: 1px; }
+
+.contact {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 20px 0 0 0; }
+
+@media (min-width: 769px) {
+  .contact {
+    font-size: 3rem; } }
+.contactbutton {
+  background-color: #7b5544;
+  color: #f8f4e6;
+  margin: 5px auto;
+  border-radius: 20px;
+  width: 200px; }
+
+@media (min-width: 769px) {
+  .contactbutton {
+    font-size: 2.4rem; } }
+a {
+  color: #f8f4e6;
+  text-decoration: none;
+  display: block; }
+
+footer {
+  background-color: #fffff9;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
